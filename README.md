@@ -1,17 +1,36 @@
-# React + Vite
+# 🔐 Prototurk-Auth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Prototurk-Auth** is a modern authentication web application built with React, Redux Toolkit, and Firebase Authentication. It provides a secure and user-friendly experience for managing user accounts, including registration, login, email verification, and profile management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔐 User registration and login with email and password
+- 📧 Email verification
+- 👤 Profile management (display name and profile photo)
+- 🔄 Centralized authentication state management
+- 🔑 Password management
+- 🚪 User logout and session management
+- 🔔 Toast notifications for success and error messages
+- 📱 Responsive and user-friendly interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Firebase Authentication
+- Redux Toolkit
+- React Redux
+- React Router DOM
+- Tailwind CSS v4
+- React Hot Toast
+- Vite
 
-## Expanding the ESLint configuration
+## 📦 Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# prototurk-auth
+This project was developed to practice modern authentication workflows and improve frontend development skills using React and Firebase.
+
+It demonstrates Firebase Authentication integration, centralized state management with Redux Toolkit, client-side routing, and responsive UI development.
+
+## 🖥️ Preview
+
+![](prototurk.gif)
